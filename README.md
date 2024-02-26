@@ -15,7 +15,7 @@ The script supports these Linux distributions:
 | Fedora >= 35       | ✅ 🤖   |
 | Oracle Linux 8     | ✅      |
 | Rocky Linux 8      | ✅      |
-| Ubuntu >= 18.04    | ✅ 🤖   |
+| Ubuntu >= 22.04    | ✅ 🤖   |
 
 To be noted:
 
@@ -27,7 +27,7 @@ To be noted:
 
 ## Fork
 
-This script is based on the great work of [Nyr and its contributors](https://github.com/Nyr/openvpn-install).
+
 
 Since 2016, the two scripts have diverged and are not alike anymore, especially under the hood. The main goal of the script was enhanced security. But since then, the script has been completely rewritten and a lot a features have been added. The script is only compatible with recent distributions though, so if you need to use a very old server or client, I advise using Nyr's script.
 
