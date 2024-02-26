@@ -276,6 +276,7 @@ function installQuestions() {
 	echo "   1) Default: 1194"
 	echo "   2) Custom"
 	echo "   3) Random [49152-65535]"
+	echo "   3) Random Sifat [4909-65535]"
 	until [[ $PORT_CHOICE =~ ^[1-3]$ ]]; do
 		read -rp "Port choice [1-3]: " -e -i 1 PORT_CHOICE
 	done
