@@ -246,7 +246,7 @@ function installQuestions() {
 
 		PUBLICIP=$(curl -s https://api.ipify.org)
 		until [[ $ENDPOINT != "" ]]; do
-			read -rp "Public IPv4 address or hostname: " -e -i "$PUBLICIP" ENDPOINT
+			read -rp "Public IPv4 address or hostname:-- " -e -i "$PUBLICIP" ENDPOINT
 		done
 	fi
 
